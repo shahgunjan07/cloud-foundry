@@ -1,0 +1,6 @@
+name: CFSpringPostgreSQLApp
+path: target/spring-postgres-0.0.2-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+momery: 1G
+services:
+  - mypostgresql
